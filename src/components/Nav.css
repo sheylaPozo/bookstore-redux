@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.813rem 6.188rem 1.688rem 6.25rem;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+  color: transparent;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
