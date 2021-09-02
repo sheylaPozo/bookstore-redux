@@ -8,15 +8,6 @@
 ![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
 ---
 
-🤍 Preview Image🤍
----------------------------------------------
-|   Desktop version   |   Mobile version    |
-|-------------------- | --------------------|
-![Desktop]() | ![mobile]() 
-
-------------------------------------------
----
-
 ## 🤍 Built With:
 
 ---
@@ -29,13 +20,6 @@
 
 ---
 The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
-
-# 🤍 Live Demo 🤍
----
-
-🤍 [Demo](https://sheylapozo.githu/bookstore-redux) 
-🤍 [Netlify]()
-🤍 [Heroku]()
 
 ---
 
