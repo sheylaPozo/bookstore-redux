@@ -5,14 +5,14 @@ import BookActions from './BookAction';
 const BookInfo = (props) => {
   const {
     bookid,
-    category,
+    categorie,
     title,
     author,
   } = props;
 
   return (
     <div>
-      <span>{category}</span>
+      <span>{categorie}</span>
       <span>{title}</span>
       <span>{author}</span>
       <BookActions bookid={bookid} />
@@ -35,4 +35,3 @@ BookInfo.propTypes = {
 };
 
 export default BookInfo;
-
