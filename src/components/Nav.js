@@ -11,7 +11,7 @@ export default function Nav() {
     <Router>
       <nav>
         <div className="nav-bar">
-          <h1>Bookstore CMS</h1>
+          <h1>Bookstore</h1>
           <ul>
             <li>
               <Link to="/">Books</Link>
