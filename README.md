@@ -4,7 +4,7 @@
 ---
 # bookstore-redux
 
-> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS, JSX and webpack; is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. and read a random math-related quote. following the guidelines of 
+> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5, CSS3, JS, JSX and webpack; . following the guidelines of 
 ![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
 ---
 
