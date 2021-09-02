@@ -9,7 +9,6 @@ nav {
   display: flex;
   align-items: baseline;
   gap: 3rem;
-  color: transparent;
 }
 
 nav ul {
