@@ -1,22 +1,11 @@
-# bookstore-redux
-Keeps track of books that you have read using React and Redux.
-
-![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) ![app](https://img.shields.io/badge/Myapp-blue
-React project has been made with HTML5, CSS3, JS, JSX and Webpack, following the guidelines of 
-![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) ![app](https://img.shields.io/badge/Myapp-blue)
 ---
 ![](https://img.shields.io/github/followers/sheylaPozo?style=social)
 ---
 # bookstore-redux
-> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS, JSX and webpac; is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. and read a random math-related quote.
 
-🤍 Preview Image🤍
----------------------------------------------
-|   Desktop version   |   Mobile version    |
-|-------------------- | --------------------|
-![Desktop]() | ![mobile]() 
-
-------------------------------------------
+> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5, CSS3, JS, JSX and webpack; Keeps track of books that you have read using React and Redux, following the guidelines of 
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
 ---
 
 ## 🤍 Built With:
@@ -31,13 +20,6 @@ React project has been made with HTML5, CSS3, JS, JSX and Webpack, following the
 
 ---
 The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
-
-# 🤍 Live Demo 🤍
----
-
-🤍 [Demo](https://sheylapozo.githu/bookstore-redux) 
-🤍 [Netlify]()
-🤍 [Heroku]()
 
 ---
 
