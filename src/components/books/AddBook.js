@@ -43,11 +43,17 @@ const AddBook = () => {
           onChange={handleChangeAgain}
         />
 
-        <select placeholder="Categorie">
-          <option value="">Categorie</option>
+        <select placeholder="Category">
+          <option value="">Category</option>
           <option>Action</option>
           <option>Science Fiction</option>
           <option>Economy</option>
+          <option>History</option>
+          <option>Novel</option>
+          <option>Horror</option>
+          <option>Metaphysics</option>
+          <option>Autobiography</option>
+          <option>Children Books</option>
         </select>
         <button type="submit">ADD BOOK</button>
       </form>
