@@ -1,14 +1,12 @@
-# bookstore-redux
-Keeps track of books that you have read using React and Redux.
-
-![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) ![app](https://img.shields.io/badge/Myapp-blue
-React project has been made with HTML5, CSS3, JS, JSX and Webpack, following the guidelines of 
-![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet) ![app](https://img.shields.io/badge/Myapp-blue)
 ---
 ![](https://img.shields.io/github/followers/sheylaPozo?style=social)
 ---
 # bookstore-redux
-> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS, JSX and webpac; is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. and read a random math-related quote.
+
+> This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS, JSX and webpack; is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. and read a random math-related quote. following the guidelines of 
+![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
+---
 
 🤍 Preview Image🤍
 ---------------------------------------------
