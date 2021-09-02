@@ -11,7 +11,7 @@ const AddBook = () => (
         </option>
         <option>Metaphysics</option>
         <option>Autobiography</option>
-        <option>Children's Books</option>
+        <option>Children Books</option>
       </select>
       <button type="submit">ADD BOOK</button>
     </form>
