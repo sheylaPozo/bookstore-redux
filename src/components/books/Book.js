@@ -6,13 +6,13 @@ import BookProgress from "./BookProgress";
 
 const Book = ({ book }) => {
   const {
-    id, title, categorie, author, progress,
+    id, title, category, author, progress,
   } = book;
   return (
     <li key={id} className="book-list">
       <div className="book-info">
         <div>
-          <p>{categorie}</p>
+          <p>{category}</p>
           <h4>{title}</h4>
           <p>{author}</p>
           <BookAction id={id} />
