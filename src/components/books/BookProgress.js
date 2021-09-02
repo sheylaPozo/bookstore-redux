@@ -13,7 +13,7 @@ const BookProgress = ({ progress }) => {
         </div>
       </div>
       <div className="book-progress-update">
-        <p>CURRENT CAHPTER</p>
+        <p>CURRENT CHAPTER</p>
         <p>{currentChapter}</p>
         <button type="button">UPDATE PROGRESS</button>
       </div>
