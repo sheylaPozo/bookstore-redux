@@ -43,8 +43,8 @@ const AddBook = () => {
           onChange={handleChangeAgain}
         />
 
-        <select placeholder="Categorie">
-          <option value="">Categorie</option>
+        <select placeholder="Category">
+          <option value="">Category</option>
           <option>Metaphysics</option>
           <option>Autobiography</option>
           <option>Children Books</option>
