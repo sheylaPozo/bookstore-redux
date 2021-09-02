@@ -45,9 +45,9 @@ const AddBook = () => {
 
         <select placeholder="Categorie">
           <option value="">Categorie</option>
-          <option>Metaphysics</option>
-          <option>Autobiography</option>
-          <option>Children Books</option>
+          <option>Action</option>
+          <option>Science Fiction</option>
+          <option>Economy</option>
         </select>
         <button type="submit">ADD BOOK</button>
       </form>

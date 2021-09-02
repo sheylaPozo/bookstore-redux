@@ -1,37 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import BookActions from './BookAction';
+/* eslint-disable quotes */
 
-const BookInfo = (props) => {
-  const {
-    bookid,
-    categorie,
-    title,
-    author,
-  } = props;
+import { useSelector } from "react-redux";
+import Books from "./Books";
+import AddBook from "./AddBook";
 
+const BookInfo = () => {
+  const books = useSelector((state) => state.books);
   return (
     <div>
-      <span>{categorie}</span>
-      <span>{title}</span>
-      <span>{author}</span>
-      <BookActions bookid={bookid} />
+      <Books books={books} />
+      <AddBook />
     </div>
   );
-};
-
-BookInfo.defaultProps = {
-  bookid: '',
-  categorie: '',
-  title: '',
-  author: '',
-};
-
-BookInfo.propTypes = {
-  bookid: PropTypes.string,
-  categorie: PropTypes.string,
-  title: PropTypes.string,
-  author: PropTypes.string,
 };
 
 export default BookInfo;
