@@ -27,7 +27,7 @@ const books = [
   },
   {
     id: 3,
-    category: "Children's Books, 2009 - Children's stories",
+    category: "Children Books, 2009 - Children stories",
     title: "Prom Nights from Hell",
     author: "Meg Cabot, Stephenie Meyer, Kim Harrison, Michele Jaffe, Lauren Myracle",
     progress: {
