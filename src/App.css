@@ -1,0 +1,14 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: dimgray;
+}

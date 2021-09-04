@@ -1,17 +1,16 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 1.813rem 6.188rem 1.688rem 6.25rem;
+.nav {
+  width: 65%;
+  margin: 0 auto;
+  padding: 15px 0;
 }
 
-.nav-bar {
+.nav,
+.nav-links {
   display: flex;
-  align-items: baseline;
-  gap: 3rem;
+  align-items: center;
 }
 
-nav ul {
-  display: flex;
-  gap: 3rem;
+.nav-link {
+  margin-left: 1em;
+  font-size: 1rem;
 }

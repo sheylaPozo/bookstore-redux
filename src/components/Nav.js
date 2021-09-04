@@ -1,36 +1,26 @@
-/* eslint-disable quotes, object-curly-newline */
+import PropTypes from 'prop-types';
+import { Link, NavLink } from 'react-router-dom';
+import './Nav.css';
 
-import React from "react";
-import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
-import PageBooks from "./books/PageBooks";
-import Categories from "./categories/Categories";
-import "./Nav.css";
+const Nav = ({ pageHeader, routes }) => (
+  <nav className="nav">
+    <Link to="/">{pageHeader}</Link>
+    <ul className="nav-links">
+      {routes.map(({ name, path }) => (
+        <li key={path} className="nav-link">
+          <NavLink exact to={path}>{name}</NavLink>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);
 
-export default function Nav() {
-  return (
-    <Router>
-      <nav>
-        <div className="nav-bar">
-          <h1>Bookstore CMS</h1>
-          <ul>
-            <li>
-              <Link to="/">Books</Link>
-            </li>
-            <li>
-              <Link to="/categories">Categories</Link>
-            </li>
-          </ul>
-        </div>
-        <p>image</p>
-      </nav>
-      <Switch>
-        <Route path="/categories">
-          <Categories />
-        </Route>
-        <Route path="/">
-          <PageBooks />
-        </Route>
-      </Switch>
-    </Router>
-  );
-}
+Nav.propTypes = {
+  pageHeader: PropTypes.string.isRequired,
+  routes: PropTypes.arrayOf(PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  })).isRequired,
+};
+
+export default Nav;

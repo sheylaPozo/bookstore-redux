@@ -1,18 +1,38 @@
-/* eslint-disable quotes */
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import BooksPage from './components/Books/BooksPage';
+import Nav from './components/Nav';
+import Categories from './components/categories/Categories';
+import store from './redux/cofigureStore';
+import './App.css';
 
-import React from "react";
-import { Provider } from "react-redux";
-import Nav from "./components/Nav";
-import store from "./redux/configureStore";
+const routes = [
+  {
+    path: '/',
+    name: 'BOOKS',
+    component: <BooksPage />,
+  },
+  {
+    path: '/categories',
+    name: 'CATEGORIES',
+    component: <Categories />,
+  },
+];
 
-function App() {
-  return (
-    <Provider store={store}>
-      <div className="main-div">
-        <Nav />
-      </div>
-    </Provider>
-  );
-}
+const App = () => (
+  <Provider store={store}>
+    <Router>
+      <header className="App-header">
+        <Nav pageHeader="Bookstore CMS" routes={routes} />
+      </header>
+      <Switch>
+        {routes.map(({ path, component }) => (
+          <Route path={path} exact key={path}>{component}</Route>
+        ))}
+      </Switch>
+    </Router>
+  </Provider>
+
+);
 
 export default App;
