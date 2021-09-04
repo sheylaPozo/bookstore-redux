@@ -35,3 +35,7 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/react-redux/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
+    config: 'stylelint.config.js'
+    files:
+    ignore:
+    - './App.js'
