@@ -31,7 +31,12 @@
 The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 
 ---
+# 🤍 Live Demo 🤍
+---
 
+🤍 [Netlify]()
+
+---
 # 🤍 Instructions:
 
 To get a local copy up and running follow these simple sample steps.
