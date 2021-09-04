@@ -8,12 +8,12 @@ import './Book.css';
 const Book = ({
   id, category, title, author, progress, currentChapter,
 }) => (
-  <div className="book-container">
-    <div>
+  <div className="book-container d-flex">
+    <div className="book-details flex-basis">
       <BookDetails category={category} title={title} author={author} />
       <BookActions id={id} />
     </div>
-    <div className="stats">
+    <div className="stats flex-basis">
       <Progress value={progress} />
       <BookStats currentChapter={currentChapter} />
     </div>

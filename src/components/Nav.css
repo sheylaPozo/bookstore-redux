@@ -1,16 +1,42 @@
 .nav {
-  width: 65%;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-
-.nav,
-.nav-links {
-  display: flex;
+  width: 100%;
+  background-color: #fff;
+  padding: 1.3rem 0;
   align-items: center;
 }
 
-.nav-link {
-  margin-left: 1em;
-  font-size: 1rem;
+.nav > a {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: var(--azure);
+  padding-left: 4.75rem;
+}
+
+.nav-links {
+  flex: 1;
+}
+
+.nav-link > a {
+  margin-left: 30px;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: var(--black-two);
+}
+
+.nav-link > a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.avatar {
+  background: none !important;
+  border: 1px solid #eee;
+  margin-right: 70px;
+}
+
+.avatar > svg {
+  color: var(--dodger-blue);
+  background-color: #fff;
+  border-radius: 50%;
 }

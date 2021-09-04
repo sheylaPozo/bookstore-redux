@@ -16,6 +16,7 @@ const BooksPage = () => {
   return (
     <div className="book-page">
       <BookList books={books} />
+      <hr />
       <NewBook />
     </div>
   );

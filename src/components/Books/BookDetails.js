@@ -3,9 +3,9 @@ import './BookDetails.css';
 
 const BookDetails = ({ category, title, author }) => (
   <div className="details">
-    <span>{category}</span>
-    <h2>{title}</h2>
-    <span>{author}</span>
+    <span className="category">{category}</span>
+    <h2 className="title">{title}</h2>
+    <span className="author">{author}</span>
   </div>
 );
 

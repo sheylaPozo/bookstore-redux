@@ -1,13 +1,14 @@
 import { CircularProgress } from '@material-ui/core';
+import './Progress.css';
 
 import PropTypes from 'prop-types';
 
 const Progress = ({ value }) => (
-  <div>
-    <CircularProgress variant="determinate" value={value} />
+  <div className="progress d-flex flex-basis">
+    <CircularProgress variant="determinate" size="4.2rem" thickness="2.5" value={value} />
     <div>
-      <span>{`${value}%`}</span>
-      <span>Completed</span>
+      <span className="percentage">{`${value}%`}</span>
+      <span className="completed">Completed</span>
     </div>
   </div>
 );
