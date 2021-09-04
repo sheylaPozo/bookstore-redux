@@ -14,16 +14,18 @@ const NewBook = () => {
 
   return (
     <section className="section">
-      <h2>ADD NEW BOOK</h2>
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        if (title && category) {
-          dispatch(createBook({ item_id: uniqid(), title, category }));
-          setTitle('');
-          setCategory(categories[0]);
-          e.target.reset();
-        }
-      }}
+      <h2 className="form-title">ADD NEW BOOK</h2>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          if (title && category) {
+            dispatch(createBook({ item_id: uniqid(), title, category }));
+            setTitle('');
+            setCategory(categories[0]);
+            e.target.reset();
+          }
+        }}
+        className="d-flex"
       >
         <input type="text" placeholder="Book title" onChange={(title) => setTitle(title.target.value)} required />
         <select name="category" onChange={(category) => setCategory(category.target.value)}>

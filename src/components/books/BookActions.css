@@ -1,9 +1,23 @@
-.actions button {
+.actions {
+  padding: 20px 0 0;
+}
+
+.actions > button {
   outline: none;
   background: none;
   border: none;
+  height: 1.188rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  color: #9e9c9c;
+  text-decoration: underline;
 }
 
 .actions > button:not(:nth-of-type(3)) {
-  border-right: 1px solid rgb(129, 128, 128);
+  border-right: 1px solid #9e9c9c;
 }

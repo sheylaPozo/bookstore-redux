@@ -3,13 +3,13 @@ import Book from './Book';
 import './BookList.css';
 
 const BookList = ({ books }) => (
-  <ul>
+  <ul className="books">
     {books.map((book) => {
       const {
         id, category, title, author, progress, currentChapter,
       } = book;
       return (
-        <li key={book.id}>
+        <li key={book.id} className="book d-flex">
           <Book
             id={id}
             category={category}

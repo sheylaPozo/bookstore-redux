@@ -22,14 +22,14 @@ const routes = [
 const App = () => (
   <Provider store={store}>
     <Router>
-      <header className="App-header">
+      <div className="bookstore-cms">
         <Nav pageHeader="Bookstore CMS" routes={routes} />
-      </header>
-      <Switch>
-        {routes.map(({ path, component }) => (
-          <Route path={path} exact key={path}>{component}</Route>
-        ))}
-      </Switch>
+        <Switch>
+          {routes.map(({ path, component }) => (
+            <Route path={path} exact key={path}>{component}</Route>
+          ))}
+        </Switch>
+      </div>
     </Router>
   </Provider>
 

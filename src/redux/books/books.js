@@ -1,4 +1,4 @@
-import * as BOKSTORE_API from './bookStoreApi';
+import * as BOOKSTORE_API from './bookStoreApi';
 
 const ADD_BOOK = 'bookStore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
@@ -20,28 +20,28 @@ const fetchBooks = (payload) => ({
 });
 
 export const getBooks = () => async (dispatch) => {
-  const books = await BOKSTORE_API.getBooks();
+  const books = await BOOKSTORE_API.getBooks();
   if (books) {
     dispatch(fetchBooks(books));
   }
 };
 
 export const createBook = (book) => async (dispatch) => {
-  const bookCreated = await BOKSTORE_API.createBook(book);
+  const bookCreated = await BOOKSTORE_API.createBook(book);
   if (bookCreated) {
     dispatch(addBook(book));
   }
 };
 
 export const deleteBook = (id) => async (dispatch) => {
-  const bookDeleted = await BOKSTORE_API.deleteBook(id);
+  const bookDeleted = await BOOKSTORE_API.deleteBook(id);
   if (bookDeleted) {
     dispatch(removeBook(id));
   }
 };
 
 const reducer = (state = [], action) => {
-  const authors = ['Dolores Cannon', 'Stephanie Meyer', 'J.k. Rowling', 'Kim Harrison', 'Meg Cabot'];
+  const authors = ['Dolores Cannon', 'Stephanie Meyer', 'J.k. Rowling', 'Kim Harrison', 'Meg Cabot', 'William Shakespeare', 'Agatha Christie', 'Barbara Cartland', 'Stephen King', 'Penny Jordan'];
   const currentChapter = ['Introduction', 'Chapter 1', 'Chapter 2', 'Chapter 3', 'Chapter 4', 'Chapter 5'];
   switch (action.type) {
     case ADD_BOOK:

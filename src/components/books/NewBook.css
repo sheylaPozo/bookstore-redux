@@ -1,4 +1,43 @@
 .section {
-  margin: 10px auto;
-  width: 65%;
+  width: 87%;
+  margin: 1rem auto 0;
+  padding: 1.5rem 0;
+}
+
+.form-title {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: var(--warm-grey);
+  padding: 0 0 16px;
+}
+
+form {
+  justify-content: space-between;
+  width: 100%;
+}
+
+input[type=text] {
+  width: 20.5rem;
+  flex: 1;
+}
+
+input[type=text],
+select,
+button[type=submit] {
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  border: solid 1px #e8e8e8;
+}
+
+select,
+button[type=submit] {
+  width: 10rem;
+  margin-left: 25px;
+}
+
+button[type=submit] {
+  color: #fff;
+  background-color: var(--azure);
 }

@@ -1,18 +1,13 @@
 .book-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 65%;
-  margin: 10px auto;
-  border: 1px solid #eee;
+  width: 52rem;
+  margin: 2rem auto 0;
+  padding: 1.5rem 9rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
 }
 
 .stats {
-  display: flex;
-  align-items: center;
-  width: 55%;
-}
-
-.stats div {
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
