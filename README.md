@@ -6,7 +6,15 @@
 
 > This project is part of Microverse's 2.0 curriculum. and it's been built with Html5, CSS3, JS, JSX and webpack; Keeps track of books that you have read using React and Redux, following the guidelines of 
 ![Microverse](https://img.shields.io/badge/Microverse2.0-blueviolet)[🔗](https://www.microverse.org/) for best practices.
+> This project uses [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739) for storage of book details data.
 ---
+
+🤍 Preview Image🤍
+-------------------------------------------
+|   Desktop version                       | 
+|-----------------------------------------|
+![Desktop](https://user-images.githubusercontent.com/54015740/132103961-5f392cfb-e9e5-4a7e-94b0-6d820f0b3188.png)
+|-----------------------------------------|
 
 ## 🤍 Built With:
 
@@ -16,7 +24,8 @@
 - CSS3    🤍
 - JS      🤍
 - React   🤍
-- Webpack 🤍
+- Redux   🤍
+-[Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)🤍
 
 ---
 The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
