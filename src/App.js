@@ -1,3 +1,4 @@
+/* eslint-disable Missing file extension for import/extensions */
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import BooksPage from './components/Books/BooksPage';
