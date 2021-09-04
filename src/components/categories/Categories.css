@@ -1,0 +1,9 @@
+.categories {
+  width: 65%;
+  margin: 20px auto;
+}
+
+.categories > h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}

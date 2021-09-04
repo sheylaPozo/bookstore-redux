@@ -1,7 +1,9 @@
-/* eslint-disable quotes */
+import './Categories.css';
 
-import React from "react";
-
-const Categories = () => <p>Under construction</p>;
+const Categories = () => (
+  <div className="categories">
+    <h1>Under construction</h1>
+  </div>
+);
 
 export default Categories;

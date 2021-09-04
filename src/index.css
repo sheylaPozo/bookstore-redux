@@ -1,29 +1,22 @@
-/*
-  ==============================================
-               ****** RESET *****
-  ==============================================
-*/
-
+/* http://meyerweb.com/eric/tools/css/reset/ License: none (public domain) */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
-
-/*
-    ==============================================
-                ****** Global *****
-    ==============================================
-*/
 
 body {
   font-size: 30px;
+  background-color: #fafafa;
+  line-height: 1;
 }

@@ -1,36 +1,40 @@
-/* eslint-disable quotes */
+import PropTypes from 'prop-types';
+import BookActions from './BookActions';
+import BookDetails from './BookDetails';
+import BookStats from './BookStats';
+import Progress from './Progress';
+import './Book.css';
 
-import PropTypes from "prop-types";
-import BookAction from "./BookAction";
-import BookProgress from "./BookProgress";
-
-const Book = ({ book }) => {
-  const {
-    id, title, category, author, progress,
-  } = book;
-  return (
-    <li key={id} className="book-list">
-      <div className="book-info">
-        <div>
-          <p>{category}</p>
-          <h4>{title}</h4>
-          <p>{author}</p>
-          <BookAction id={id} />
-        </div>
-        <BookProgress progress={progress} />
-      </div>
-    </li>
-  );
-};
+const Book = ({
+  id, category, title, author, progress, currentChapter,
+}) => (
+  <div className="book-container">
+    <div>
+      <BookDetails category={category} title={title} author={author} />
+      <BookActions id={id} />
+    </div>
+    <div className="stats">
+      <Progress value={progress} />
+      <BookStats currentChapter={currentChapter} />
+    </div>
+  </div>
+);
 
 Book.propTypes = {
-  book: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-    category: PropTypes.string,
-    progress: BookProgress.propTypes.progress,
-  }).isRequired,
+  id: PropTypes.string,
+  category: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string,
+  progress: PropTypes.number,
+  currentChapter: PropTypes.string,
+};
+
+Book.defaultProps = {
+  id: '',
+  category: '',
+  author: '',
+  progress: 0,
+  currentChapter: '',
 };
 
 export default Book;
