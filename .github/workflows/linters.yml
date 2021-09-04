@@ -38,4 +38,4 @@ jobs:
     config: 'eslintrc.json'
     files:
     ignore:
-    - './App.js'
+    -''
