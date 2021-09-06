@@ -1,9 +1,9 @@
 .bookstore-cms {
   width: 75%;
   margin: 0 auto;
-  border-radius: 4px;
-  box-shadow: 0 0 60px 0 var(--black-5);
+  border-radius: 2px;
   background-color: #fafafa;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 a {
