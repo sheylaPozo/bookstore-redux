@@ -1,0 +1,9 @@
+.book-page {
+  width: 100%;
+}
+
+hr {
+  width: 87%;
+  margin: 2rem auto 0;
+  border: solid 1px #e8e8e8;
+}

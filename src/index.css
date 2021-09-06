@@ -1,6 +1,36 @@
-/* http://meyerweb.com/eric/tools/css/reset/ License: none (public domain) */
+@import 'reset.css';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&family=Roboto+Slab:wght@300;400;500;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
+:root {
+  --bubble-gum-pink: #ff5ab7;
+  --pinkish-grey: #c4c4c4;
+  --warm-grey: #888;
+  --black-two: #121212;
+  --black: #000;
+  --dodger-blue: #379cf6;
+  --medium-blue: #307bbe;
+  --black-5: #0000000c;
+  --azure: #0290ff;
+  --pale-grey: #f5f6fa;
+  --roboto-slab-font: "RobotoSlab";
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem 0;
+  background-color: var(--pale-grey);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-basis {
+  flex: 1;
 }
