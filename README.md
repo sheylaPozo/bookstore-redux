@@ -25,7 +25,7 @@
 - Webpack 🤍
 
 ---
-The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
+The main purpose of the project [bookstore-redux](https://bookstoreredux.netlify.app/) is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 
 ---
 # 🤍 Live Demo 🤍
