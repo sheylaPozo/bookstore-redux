@@ -22,6 +22,12 @@
 The main purpose of the project [bookstore-redux](https://sheylapozo.githu/bookstore-redux)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 
 ---
+# 🤍 Live Demo 🤍
+---
+
+🤍 [Netlify](https://bookstoreredux.netlify.app/)
+
+---
 
 # 🤍 Instructions:
 
@@ -33,7 +39,7 @@ To get the content of this project locally you need to run this command on your 
 
  - ` cd <folder> `
 
-- ` git clone git@github.com:sheyla.git `
+- ` git clone git@github.com:sheylaPozo/bookstore-redux.git`
 
 ### 🤍 Install
 
